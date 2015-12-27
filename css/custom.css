@@ -120,3 +120,7 @@ body {
   cursor: url(images/cursor.ani) , auto ;
 }
 
+.container-xs {
+  padding: 15px;
+  margin: auto;
+}
