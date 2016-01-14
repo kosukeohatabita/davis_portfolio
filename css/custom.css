@@ -2,8 +2,8 @@ body{
 	font-family: arial,helvetica;
 	color: #333;
 	color: rgba(0,0,0,0.5);
+  cursor: url(images/cursor.ani) , auto ;
 }
-
 
 #nav  {
 	width: 100%;
@@ -75,9 +75,14 @@ h5 {
   font-size: 1.5em ;
   color: #fff ;
 }
-.section  {
+
+.section,
+.slide{
+  -webkit-background-size: cover;
+  background-size: cover;
   text-align:center ;
 }
+
 .description  {
   font-size: 1.5em ;
 }
@@ -112,15 +117,80 @@ h5 {
   font-size: 0.8em ;
 }
 
-.div-xs {
-  color: #fff ;
-}
-
-body {
-  cursor: url(images/cursor.ani) , auto ;
-}
-
 .container-xs {
   padding: 15px;
   margin: auto;
 }
+
+@media (min-width: 568px) {
+  .container-xs {
+    height: 30%px;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+  }
+}
+
+
+/*---------------------------------------------
+
+fullPage.js css override
+
+---------------------------------------------*/
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span{
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span{
+  background: #fff;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 8px;
+    width: 0;
+    border-width: 12px 9px 12px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 8px;
+    border-width: 12px 0 12px 9px;
+    border-color: transparent transparent transparent #fff;
+}
+
+
+/*---------------------------------------------
+
+section override
+
+---------------------------------------------*/
+#sec_Signal{
+  background-image:url(../img/signal/ance_entrance_1.png);
+  color: #fff;
+}
+#sec_Signal a {
+  color: yellow;
+  text-decoration: none;
+}
+#sec_Signal a:hover,
+#sec_Signal a:focus {
+  color: orange;
+  text-decoration: underline;
+}
+
+#sec_SSS{
+  background-image:url(../img/sss/back_1.jpg);
+  color: #fff;
+}
+
+#sec_Houselab{
+  color: #999 ;
+}
+
+#sec_VA{
+  color: #fff;
+}
+
