@@ -124,10 +124,17 @@ h5 {
 
 @media (min-width: 568px) {
   .container-xs {
-    height: 30%px;
+    height: 100%px;
     width: 50%;
     padding: 15px;
     margin: auto;
+  }
+
+  .col-vxs-12 {
+    width: 100% ;
+  }
+  .col-vxs-6 {
+    width: 50% ;
   }
 }
 
@@ -187,7 +194,17 @@ section override
 }
 
 #sec_Houselab{
-  color: #999 ;
+  background-image:url(../img/houselab/back.jpg);
+  color: #fff ;
+}
+#sec_Houselab a {
+  color: yellow;
+  text-decoration: none;
+}
+#sec_Houselab a:hover,
+#sec_Houselab a:focus {
+  color: orange;
+  text-decoration: underline;
 }
 
 #sec_VA{
