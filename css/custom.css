@@ -122,6 +122,12 @@ h5 {
   margin: auto;
 }
 
+.container-xs .toolong img{
+  padding: 15px;
+  margin: auto;
+  width: 70%
+}
+
 @media (min-width: 568px) {
   .container-xs {
     height: 100%px;
@@ -136,6 +142,12 @@ h5 {
   .col-vxs-6 {
     width: 50% ;
   }
+  .visible-vxs {
+    display: block !important;
+  }
+  .hidden-vxs{
+    display: none !important;
+  }
 }
 
 
@@ -144,6 +156,7 @@ h5 {
 fullPage.js css override
 
 ---------------------------------------------*/
+  
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span{
