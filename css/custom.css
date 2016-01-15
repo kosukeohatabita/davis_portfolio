@@ -220,6 +220,15 @@ section override
   text-decoration: underline;
 }
 
+#sec_TAIKI{
+  background-image:url(../img/va/taiki/taiki.jpg);
+  color: #fff ;
+}
+#sec_Omichi{
+  background-image:url(../img/va/omichi/omichi.jpg);
+  color: #fff ;
+}
+
 #sec_VA{
   color: #fff;
 }

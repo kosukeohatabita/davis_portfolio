@@ -38,11 +38,16 @@ i) バグ:aboutのインジケーターが不要
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
-					anchors: ['forSIGNAL', 'forSSS', 'forHouseLab', 'forVA', 'about'],
-					sectionsColor: ['#000', '#7DC9E5', '#fff', '#000', '#777'],
+					anchors: ['forSIGNAL', 'forSSS', 'forHouseLab', 'forTAIKI','forOmichi','forVA', 'about'],
+					sectionsColor: ['#000', '#000', '#000', '#000', '#000', '#000', '#777'],
+					navigation: true,
+					navigationPosition: 'right',
 					slidesNavigation: true,
 					paddingTop: '50px',
-					paddingBottom: '30px'
+					paddingBottom: '30px',
+					loopTop: true,
+					loopBottom: true,
+					controlArrows: false
 				});
 			});
 		</script>
@@ -52,7 +57,7 @@ i) バグ:aboutのインジケーターが不要
 
 	<!-- Static NavBar -->
 	<nav class="navbar-default navbar-fixed-top">
-		<div class="container hidden-vxs">
+		<div class="container hidden">
 			 <div class="navbar-header ">
 			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 				    <span class="sr-only">Toggle navigation</span>
@@ -100,11 +105,11 @@ i) バグ:aboutのインジケーターが不要
 			<!-- insert latest:  -->
 
 			<!-- SIGNAL #101 -->
-			<div class="slide" id="slide1">
+			<div class="slide" >
 				<div class="container-xs">
 					<div class="col-xs-12">
 						<p>
-							<a href="#" target="">
+							<a href="img/signal/101.jpg" target="new">
 								<img src="img/signal/101.jpg" alt="#101" class="img-thumbnail" />
 							</a>
 							<!-- <p><strong>Signal vol.101</strong> -->
@@ -113,7 +118,7 @@ i) バグ:aboutのインジケーターが不要
 				</div>
 			</div>
 
-			<!-- <div class="slide" id="slide1">
+			<!-- <div class="slide" >
 				<div class="container">
 		    		<div class="">
 							<div class="col-xs-12 col-sm-6">
@@ -131,7 +136,9 @@ i) バグ:aboutのインジケーターが不要
 				<div class="container-xs">
 					<div class="col-xs-12">
 						<p>
-							<img src="img/signal/8aniv_T.png" alt="8aniv_T" class="img-thumbnail" />
+							<a href="img/signal/8aniv_T.png" target="new">
+								<img src="img/signal/8aniv_T.png" alt="8aniv_T" class="img-thumbnail" />
+							</a>
 							<p><strong>Signal 8thAniv T-shirt</strong></p>
 							<p>for ANCESTOR2015 "signal crew"</p>
 						</p>
@@ -144,7 +151,9 @@ i) バグ:aboutのインジケーターが不要
 				<div class="container-xs">
 					<div class="col-xs-12">
 						<p>
-							<img src="img/signal/7aniv_T.png" alt="7aniv_T" class="img-thumbnail" />
+							<a href="img/signal/7aniv_T.png" target="new">
+								<img src="img/signal/7aniv_T.png" alt="7aniv_T" class="img-thumbnail" />
+							</a>
 							<p><strong>Signal 7thAniv T-shirt</strong></p>
 						</p>
 					</div>
@@ -172,25 +181,30 @@ i) バグ:aboutのインジケーターが不要
 			<!-- insert latest:  -->
 
 			<!-- sss06 -->
-			<div class="slide" id="slide1">
+			<div class="slide" >
 				<div class="container-xs">
 					<div class="col-xs-12">
 						<p>
-							<img src="img/sss/sss06joint.jpg" alt="sss06" class="img-thumbnail"/>
+							<a href="img/sss/sss06joint.jpg" target="new">
+								<img src="img/sss/sss06joint.jpg" alt="sss06" class="img-thumbnail"/>
+							</a>
 							<p>2015.11.15(sun)<br><strong>SUPER☆SUPER☆SUPER vol.6</strong><br>@渋谷atom</p>
 						</p>
 					</div>
 				</div>
 			</div>
-
 			<!-- 1st Slide: "sss05" -->
-			<div class="slide" id="slide1">
+			<div class="slide" >
 				<div class="container-xs">
 					<div class="col-xs-6 ">
-						<img src="img/sss/sss05f.png" alt="sss05f" class="img-thumbnail" />
+						<a href="img/sss/sss05f.png" target="new">
+							<img src="img/sss/sss05f.png" alt="sss05f" class="img-thumbnail" />
+						</a>
 					</div>
 					<div class="col-xs-6 ">
-						<img src="img/sss/sss05b.png" alt="sss05b" class="img-thumbnail" />
+						<a href="img/sss/sss05b.png" target="new">
+							<img src="img/sss/sss05b.png" alt="sss05b" class="img-thumbnail" />
+						</a>
 					</div>
 					<div class="text-center ">
 						<p>2015.5.10(sun)<br><strong>SUPER☆SUPER☆SUPER vol.5</strong><br>@渋谷O-WEST</p>
@@ -203,7 +217,7 @@ i) バグ:aboutのインジケーターが不要
 		<!-- for HouseLab. -->
 		<div class="section" id="sec_Houselab">
 			<!-- "houselab." -->
-			<div class="slide" id="slide1">
+			<div class="slide" >
 				<div class="container-xs">
 					<div class="col-xs-12 ">
 						<p>
@@ -219,275 +233,278 @@ i) バグ:aboutのインジケーターが不要
 					</div>
 				</div>
 			</div>
-
 			<!-- "houselab.PARTY#6" -->
 			<div class="slide" id="slide2">
 				<div class="container-xs">
 					<div class="col-xs-12">
 						<p>
-							<img src="img/houselab/flyer/labparty_06.png" alt="labparty_06" class="img-thumbnail"/>
+							<a href="img/houselab/flyer/labparty_06.png" target="new">
+								<img src="img/houselab/flyer/labparty_06.png" alt="labparty_06" class="img-thumbnail"/>
+							</a>
 							<p>2015.11.29(sun)<strong>HouseLab.PARTY #6</strong><br><a href="http://www.ance.jp/" target="new">@代々木ANCE</a></p>
 						</p>
 					</div>
 				</div>
 			</div>
-
 			<!-- "houselab.PARTY#5" -->
-			<div class="slide" id="slide3">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-12 col-vxs-6">
-						<img src="img/houselab/flyer/labparty_05.jpg" alt="labparty_05" class="img-thumbnail" />
+						<a href="img/houselab/flyer/labparty_05.jpg" target="new">
+							<img src="img/houselab/flyer/labparty_05.jpg" alt="labparty_05" class="img-thumbnail" width="70%"/>
+						</a>
 					</div>		
 					<div class="text-center col-xs-12 col-vxs-6 hidden-xs">
 						<p>2015.5.31(sun)<br><strong>HouseLab.PARTY #5</strong><br><a href="http://www.ance.jp/" target="new">@代々木ANCE</a></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- labT_03 -->
-			<div class="slide" id="slide2">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-12">
-						<p><img src="img/houselab/labT/labT_03_ppl.jpg" alt="labT_03_ppl" class="img-thumbnail"/></p>
+						<a href="img/houselab/labT/labT_03_ppl.jpg" target="new">
+							<img src="img/houselab/labT/labT_03_ppl.jpg" alt="labT_03_ppl" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="text-center">
-						<p>2014.summer<br><strong><a href="#" target="new">HouseLab.T-shirt #3 swim in the club</a></strong></p>
+						<p>2014.summer<br><strong>HouseLab.T-shirt #3 swim in the club</strong></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- "houselab.PARTY#4" -->
-			<div class="slide" id="slide3">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-6">
-						<p><img src="img/houselab/flyer/labparty_04b.png" alt="labparty_04b" class="img-thumbnail"/></p>
+						<a href="img/houselab/flyer/labparty_04b.png" target="new">
+							<img src="img/houselab/flyer/labparty_04b.png" alt="labparty_04b" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="col-xs-6">
-						<p><img src="img/houselab/flyer/labparty_04f.jpg" alt="labparty_04f" class="img-thumbnail"/></p>
+						<a href="img/houselab/flyer/labparty_04f.jpg" target="new">
+							<img src="img/houselab/flyer/labparty_04f.jpg" alt="labparty_04f" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="text-center">
 						<p>2014.11.30(sun)<strong>HouseLab.PARTY #4</strong><br><a href="http://www.ance.jp/" target="new">@代々木ANCE</a></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- "houselab.labT_02" -->
-			<div class="slide" id="slide3">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-6">
-						<p><img src="img/houselab/labT/labT_02_grn.jpg" alt="labT_02_grn" class="img-thumbnail"/></p>
-						<p>2013.9<br><strong><a href="#" target="new">HouseLab.T-shirt #2 re-birth</a></strong></p>
+						<a href="img/houselab/labT/labT_02_grn.jpg" target="new">
+							<img src="img/houselab/labT/labT_02_grn.jpg" alt="labT_02_grn" class="img-thumbnail"/>
+						</a>
+						<p>2013.9<br><strong>HouseLab.T-shirt #2 re-birth</strong></p>
 					</div>
 					<div class="col-xs-6">
-						<p><img src="img/houselab/labT/labT_02_crm.png" alt="labT_02_crm" class="img-thumbnail"/></p>
+						<a href="img/houselab/labT/labT_02_crm.png" target="new">
+							<img src="img/houselab/labT/labT_02_crm.png" alt="labT_02_crm" class="img-thumbnail"/>
+						</a>
 						<p>for <strong>taro number <br>@2014 ZuttoDanceStudio発表会</strong></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- "houselab.PARTY#2" -->
-			<div class="slide" id="slide3">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-12 col-vxs-6">
-						<p><img src="img/houselab/flyer/labparty_02.png" alt="labparty_02" class="img-thumbnail" width="80%" /></p>
+						<a href="img/houselab/flyer/labparty_02.png" target="new">
+							<img src="img/houselab/flyer/labparty_02.png" alt="labparty_02" class="img-thumbnail" width="80%" />
+						</a>
 					</div>
 					<div class="text-center col-xs-12 col-vxs-6 hidden-xs">
 						<p>2014.3.30(sun)<br><strong>HouseLab.PARTY #2</strong><br><a href="http://www.ance.jp/" target="new">@代々木ANCE</a></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- lab3aniv_T -->
-			<div class="slide" id="slide2">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-12">
-						<p><img src="img/houselab/labT/lab3aniv_T.jpg" alt="lab3aniv_T" class="img-thumbnail"/></p>
+						<a href="img/houselab/labT/lab3aniv_T.jpg" target="new">
+							<img src="img/houselab/labT/lab3aniv_T.jpg" alt="lab3aniv_T" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="text-center">
-						<p>2013.9<br><strong><a href="#" target="new">HouseLab. 3rdAniv T-shirt</a></strong></p>
+						<p>2013.9<br><strong>HouseLab. 3rdAniv T-shirt</strong></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- labT_01 -->
-			<div class="slide" id="slide1">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-6">
-						<p><img src="img/houselab/labT/labT_01_grn.jpg" alt="grn" class="img-thumbnail"/></p>
+						<a href="img/houselab/labT/labT_01_grn.jpg" target="new">
+							<img src="img/houselab/labT/labT_01_grn.jpg" alt="grn" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="col-xs-6">
-						<p><img src="img/houselab/labT/labT_01_red_w.jpg" alt="blue" class="img-thumbnail"/></p>
+						<a href="img/houselab/labT/labT_01_red_w.jpg" target="new">
+							<img src="img/houselab/labT/labT_01_red_w.jpg" alt="blue" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="text-center">
-						<p>2013.9<br><strong><a href="#" target="new">HouseLab.T-shirt #1 landscape</a></strong></p>
+						<p>2013.9<br><strong>HouseLab.T-shirt #1 landscape</strong></p>
 					</div>
 				</div>
 			</div>
-			
 		</div>
 
 
-
-		<!-- forVA -->
-		<div class="section" id="sec_VA">
-
-			<div class="slide" id="slide1">
+		<!-- for TAIKI -->
+		<div class="section" id="sec_TAIKI">
+			<div class="slide">
+				<div class="text-center">
+						<p>for <strong>TAIKI</strong></p>
+				</div>
+			</div>
+			<!-- TAIKI -->
+			<div class="slide">
 				<div class="container-xs">
-					<div class="text-center">
-						<p>for<strong> Various Artists</strong></p>
+					<div class="col-xs-12">
+						<a href="img/va/taiki/hdc_cross_T.png" target="new">
+							<img src="img/va/taiki/hdc_cross_T.png" alt="hdc_cross_T" class="img-thumbnail"/>
+						</a>
+						<p>for<strong> TAIKI</strong><br>2014.3 HouseDanceCrossing@川崎CHITTA</p>
 					</div>
 				</div>
 			</div>
-
-			<!-- omichi04_T -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/omichi04_T.png" alt="omichi04_T" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> Omichi </strong><br>2016.1</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- lady_yellow_T -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/lady_yellow_T.png" alt="lady_yellow_T" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> Omichi </strong><br>2014.7</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- omichi_zds2015_T -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/omichi_zds2015_T.png" alt="omichi_zds2015_T" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> Omichi </strong><br>2014.5 ZuttoDanceStudio発表会</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- taiki_omichi02_T -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/taiki_omichi02_Tfront.png" alt="taiki_omichi02_Tfront" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> TAIKI & Omichi</strong><br>2014.9</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- shoko_ssn -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/shoko_ssn.png" alt="shoko_ssn" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> 祥子</strong><br>2014.9 PARTNER@新宿FAC</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- omichi03 -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-6 ">
-						<p><img src="img/va/omichi_03_c_blue_T.png" alt="omichi_03_c_blue_T" class="img-thumbnail"/></p>
-					</div>
-					<div class="col-xs-6 ">
-						<p><img src="img/va/omichi_03_c_white_T.png" alt="omichi_03_c_white_T" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> Omichi</strong><br>2014.11</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- songs_cafe_pink -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-6 ">
-						<p><img src="img/va/songs_cafe_pink.png" alt="songs_cafe_pink" class="img-thumbnail"/></p>
-					</div>
-					<div class="col-xs-6 ">
-						<p><img src="img/va/songs_cafe_pinkT.png" alt="songs_cafe_pinkT" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> SDC</strong><br>2014.9</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- omichi02 -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/omichi_02_blackT.png" alt="omichi_02_blackT" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> Omichi</strong><br>2014.9</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- lotus -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/lotus.png" alt="lotus" class="img-thumbnail"/></p>
-					</div>
-					<div class="text-center">
-						<p>for<strong> lotus</strong><br>2014.8</p>
-					</div>
-				</div>
-			</div>
-
 			<!-- TAIKI & Omichi -->
-			<div class="slide" id="slide1">
+			<div class="slide">
 				<div class="container-xs">
-					<div class="col-xs-6 ">
-						<p><img src="img/va/cross_Tf.png" alt="cross_Tf" class="img-thumbnail"/></p>
+					<div class="col-xs-6">
+						<a href="img/va/taiki/cross_Tf.png" target="new">
+							<img src="img/va/taiki/cross_Tf.png" alt="cross_Tf" class="img-thumbnail"/>
+						</a>
 					</div>
-					<div class="col-xs-6 ">
-						<p><img src="img/va/cross_Tb.png" alt="cross_Tb" class="img-thumbnail"/></p>
+					<div class="col-xs-6">
+						<a href="img/va/taiki/cross_Tb.png" target="new">
+							<img src="img/va/taiki/cross_Tb.png" alt="cross_Tb" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="text-center">
 						<p>for<strong> TAIKI & Omichi</strong><br>2014.3</p>
 					</div>
 				</div>
 			</div>
-
-			<!-- TAIKI -->
-			<div class="slide" id="slide1">
+			<!-- taiki_zds2013_T -->
+			<div class="slide" >
 				<div class="container-xs">
 					<div class="col-xs-12">
-						<p>
-							<img src="img/va/hdc_cross_T.png" alt="hdc_cross_T" class="img-thumbnail"/>
-							<p>for<strong> TAIKI</strong><br>2014.3 HouseDanceCrossing@川崎CHITTA</p>
-						</p>
+						<a href="img/va/taiki/taiki_zds2013_T.png" target="new">
+							<img src="img/va/taiki/taiki_zds2013_T.png" alt="taiki_zds2013_T" class="img-thumbnail"/>
+						</a>
+						<p>for<strong> TAIKI</strong><br>2013 ZuttoDanceStudio発表会</p>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<!-- omichi01 -->
-			<div class="slide" id="slide1">
+		<!-- for Omichi -->
+		<div class="section" id="sec_Omichi">
+			<div class="slide">
+				<div class="text-center">
+						<p>for <strong>Omichi</strong></p>
+				</div>
+			</div>
+			<!-- omichi04_T -->
+			<div class="slide" >
 				<div class="container-xs">
-					<div class="col-xs-6 ">
-						<p><img src="img/va/omichi01.png" alt="omichi01" class="img-thumbnail"/></p>
+					<div class="col-xs-12">
+						<a href="img/va/omichi/omichi04_T.png" target="new">
+							<img src="img/va/omichi/omichi04_T.png" alt="omichi04_T" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> Omichi </strong><br>2016.1</p>
+					</div>
+				</div>
+			</div>
+			<!-- lady_yellow_T -->
+			<div class="slide" >
+				<div class="container-xs">
+					<div class="col-xs-12">
+						<a href="img/va/omichi/lady_yellow_T.png" target="new">
+							<img src="img/va/omichi/lady_yellow_T.png" alt="lady_yellow_T" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> Omichi </strong><br>2014.7</p>
+					</div>
+				</div>
+			</div>
+			<!-- omichi_zds2015_T -->
+			<div class="slide">
+				<div class="container-xs">
+					<div class="col-xs-12 ">
+						<a href="img/va/omichi/omichi_zds2015_T.png" target="new">
+							<img src="img/va/omichi/omichi_zds2015_T.png" alt="omichi_zds2015_T" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> Omichi </strong><br>2014.5 ZuttoDanceStudio発表会</p>
+					</div>
+				</div>
+			</div>
+			<!-- taiki_omichi02_T -->
+			<div class="slide">
+				<div class="container-xs">
+					<div class="col-xs-12">
+						<a href="img/va/omichi/taiki_omichi02_Tfront.png" target="new">
+							<img src="img/va/omichi/taiki_omichi02_Tfront.png" alt="taiki_omichi02_Tfront" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> TAIKI & Omichi</strong><br>2014.9</p>
+					</div>
+				</div>
+			</div>
+			<!-- omichi03 -->
+			<div class="slide" >
+				<div class="container-xs">
+					<div class="col-xs-6">
+						<a href="img/va/omichi/omichi_03_c_blue_T.png" target="new">
+							<img src="img/va/omichi/omichi_03_c_blue_T.png" alt="omichi_03_c_blue_T" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="col-xs-6">
+						<a href="img/va/omichi/omichi_03_c_white_T.png" target="new">
+							<img src="img/va/omichi/omichi_03_c_white_T.png" alt="omichi_03_c_white_T" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> Omichi</strong><br>2014.11</p>
+					</div>
+				</div>
+			</div>
+			<!-- omichi02 -->
+			<div class="slide" >
+				<div class="container-xs">
+					<div class="col-xs-12">
+						<a href="img/va/omichi/omichi_02_blackT.png" target="new">
+							<img src="img/va/omichi/omichi_02_blackT.png" alt="omichi_02_blackT" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> Omichi</strong><br>2014.9</p>
+					</div>
+				</div>
+			</div>
+			<!-- omichi01 -->
+			<div class="slide" >
+				<div class="container-xs">
+					<div class="col-xs-6">
+						<a href="img/va/omichi/omichi01.png" target="new">
+							<img src="img/va/omichi/omichi01.png" alt="omichi01" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="col-xs-6 ">
-						<p><img src="img/va/omichi01b.png" alt="omichi01b" class="img-thumbnail"/></p>
+						<a href="img/va/omichi/omichi01b.png" target="new">
+							<img src="img/va/omichi/omichi01b.png" alt="omichi01b" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="text-center">
 						<p>for<strong> Omichi</strong><br>2013</p>
@@ -495,62 +512,117 @@ i) バグ:aboutのインジケーターが不要
 				</div>
 			</div>
 
-			<!-- EPIS_1 -->
-			<div class="slide" id="slide1">
+		</div>
+
+
+		<!-- forVA -->
+		<div class="section" id="sec_VA">
+
+			<div class="slide" >
+				<div class="text-center">
+					<p>for<strong> Various Artists</strong></p>
+				</div>
+			</div>
+			<!-- yanma_megane -->
+			<div class="slide" >
 				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p><img src="img/va/EPIS_1.jpg" alt="EPIS_1" class="img-thumbnail"/></p>
+					<div class="col-xs-12">
+						<a href="img/signal/megane_T.png" target="new">
+							<img src="img/signal/megane_T.png" alt="yanma_megane" class="img-thumbnail">	
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> YANMA</strong><br>2015.9 PARTNER@新宿FACE</p>
+					</div>
+				</div>
+			</div>
+			<!-- shoko_ssn -->
+			<div class="slide" >
+				<div class="container-xs">
+					<div class="col-xs-12">
+						<a href="img/va/shoko_ssn.png" target="new">
+							<img src="img/va/shoko_ssn.png" alt="shoko_ssn" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> 祥子</strong><br>2014.9 PARTNER@新宿FACE</p>
+					</div>
+				</div>
+			</div>
+			<!-- songs_cafe_pink -->
+			<div class="slide" >
+				<div class="container-xs">
+					<div class="col-xs-6">
+						<a href="img/va/songs_cafe_pink.png" target="new">
+							<img src="img/va/songs_cafe_pink.png" alt="songs_cafe_pink" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="col-xs-6">
+						<a href="img/va/songs_cafe_pinkT.png" target="new">
+							<img src="img/va/songs_cafe_pinkT.png" alt="songs_cafe_pinkT" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> SDC</strong><br>2014.9</p>
+					</div>
+				</div>
+			</div>
+			<!-- lotus -->
+			<div class="slide" >
+				<div class="container-xs">
+					<div class="col-xs-12">
+						<a href="img/va/lotus.png" target="new">
+							<img src="img/va/lotus.png" alt="lotus" class="img-thumbnail"/>
+						</a>
+					</div>
+					<div class="text-center">
+						<p>for<strong> lotus</strong><br>2014.8</p>
+					</div>
+				</div>
+			</div>
+			<!-- EPIS_1 -->
+			<div class="slide">
+				<div class="container-xs">
+					<div class="col-xs-12">
+						<a href="img/va/EPIS_1.jpg" target="new">
+							<img src="img/va/EPIS_1.jpg" alt="EPIS_1" class="img-thumbnail"/>
+						</a>
 					</div>
 					<div class="text-center">
 						<p><strong>EPIS logo</strong><br>2013</p>
 					</div>
 				</div>
 			</div>
-
-			<!-- taiki_zds2013_T -->
-			<div class="slide" id="slide1">
-				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p>
-							<img src="img/va/taiki_zds2013_T.png" alt="taiki_zds2013_T" class="img-thumbnail"/>
-							<p>for<strong> TAIKI</strong><br>2013 ZuttoDanceStudio発表会</p>
-						</p>
-					</div>
-				</div>
-			</div>
-
 			<!-- JMC -->
-			<div class="slide" id="slide1">
+			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-12 ">
-						<p>
+						<a href="img/va/jmc_nextgenerationz.png" target="new">
 							<img src="img/va/jmc_nextgenerationz.png" alt="jnz" class="img-thumbnail" />
-							<p>for<strong>　JMC next generationz</strong><br>2013.8.31 JMC@渋谷VISION</p>
-						</p>
+						</a>
+						<p>for<strong>　JMC next generationz</strong><br>2013.8.31 JMC@渋谷VISION</p>
 					</div>
 				</div>
 			</div>
-
 			<!-- NaN_T -->
-			<div class="slide" id="slide1">
+			<div class="slide" >
 				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p>
+					<div class="col-xs-12">
+						<a href="img/va/NaN_T.png" target="new">
 							<img src="img/va/NaN_T.png" alt="NaN_T" class="img-thumbnail" />
-							<p>for<strong> NaN</strong><br>2013.3</p>
-						</p>
+						</a>
+						<p>for<strong> NaN</strong><br>2013.3</p>
 					</div>
 				</div>
 			</div>
-
 			<!-- determination -->
-			<div class="slide" id="slide1">
+			<div class="slide" >
 				<div class="container-xs">
-					<div class="col-xs-12 ">
-						<p>
+					<div class="col-xs-12">
+						<a href="img/va/determination.jpg" target="new">
 							<img src="img/va/determination.jpg" alt="determination" class="img-thumbnail" />
-							<p>for<strong>　determination</strong><br>2013.7</p>
-						</p>
+						</a>
+						<p>for<strong>　determination</strong><br>2013.7</p>
 					</div>
 				</div>
 			</div>
@@ -559,33 +631,33 @@ i) バグ:aboutのインジケーターが不要
 
 
 		<!-- about -->
-		<div class="section" id="section5">
+		<div class="section">
 			
-				<div class="container">
-					<div class="intro">
-						<div class="container-xs xs-size">
-							<div class="col-md-6 col-md-offset-3">
-								<h3>About Site</h3>
-								<p class="description-xs"><stropng>davisとしてのお仕事の彼是</stropng><br>古いのも徐々に更新予定。</p>
-							</div>
-							<div class="col-md-6 col-md-offset-3" id="icon-webfont">
-								<h3>Contact</h3>
-								<a href="https://www.facebook.com/kosuke.ohata.3" target="new">
-									<i class="fa fa-facebook-square fa-3x fa-fw animated-hover" style="color: #fff"></i>
-								</a>
-								<a href="mailto:ohata.k.ec@gmail.com?subject=問い合わせ&amp;">
-									<i class="fa fa-envelope-square fa-3x fa-fw" style="color: #fff"></i>
-								</a>
-							</div>
-							<br><br>
-							<div class="col-xs-12 ">
-								<footer class="footer">
-									<p class="text-muted copyright">&copy; 2016 davis</p>
-								</footer>
-							</div>
+			<div class="container">
+				<div class="intro">
+					<div class="container-xs xs-size">
+						<div class="col-md-6 col-md-offset-3">
+							<h3>About Site</h3>
+							<p class="description-xs"><stropng>davisとしてのお仕事の彼是</stropng><br>古いのも徐々に更新予定。</p>
+						</div>
+						<div class="col-md-6 col-md-offset-3" id="icon-webfont">
+							<h3>Contact</h3>
+							<a href="https://www.facebook.com/kosuke.ohata.3" target="new">
+								<i class="fa fa-facebook-square fa-3x fa-fw animated-hover" style="color: #fff"></i>
+							</a>
+							<a href="mailto:ohata.k.ec@gmail.com?subject=問い合わせ&amp;">
+								<i class="fa fa-envelope-square fa-3x fa-fw" style="color: #fff"></i>
+							</a>
+						</div>
+						<br><br>
+						<div class="col-xs-12 ">
+							<footer class="footer">
+								<p class="text-muted copyright">&copy; 2016 davis</p>
+							</footer>
 						</div>
 					</div>
 				</div>
+			</div>
 	  		
 		</div>
 
