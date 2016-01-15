@@ -232,4 +232,12 @@ section override
 #sec_VA{
   color: #fff;
 }
-
+#sec_VA .yanma_megane{
+  background-image:url(../img/signal/megane_back.jpg);
+}
+#sec_VA .shoko_ssn{
+  background-image:url(../img/va/shoko_ssn_back.jpg);
+}
+#sec_VA .sdc2014{
+  background-image:url(../img/va/sdc2014_back.jpg);
+}

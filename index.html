@@ -2,10 +2,9 @@
 
 <!--
 tasks
-i) バグ：画像がはみ出す。カラムの縦尺を修正。
-i) 各sectionの背景を挿入。
+iii) バグ：縦長の画像がはみ出す。
+ii)　インジケーターを縮小する。
 i) 画像にアニメーションつける
-i) バグ:aboutのインジケーターが不要
 -->
 
 <html LANG="ja">
@@ -43,8 +42,6 @@ i) バグ:aboutのインジケーターが不要
 					navigation: true,
 					navigationPosition: 'right',
 					slidesNavigation: true,
-					paddingTop: '50px',
-					paddingBottom: '30px',
 					loopTop: true,
 					loopBottom: true,
 					controlArrows: false
@@ -108,16 +105,13 @@ i) バグ:aboutのインジケーターが不要
 			<div class="slide" >
 				<div class="container-xs">
 					<div class="col-xs-12">
-						<p>
-							<a href="img/signal/101.jpg" target="new">
-								<img src="img/signal/101.jpg" alt="#101" class="img-thumbnail" />
-							</a>
-							<!-- <p><strong>Signal vol.101</strong> -->
-						</p>
+						<a href="img/signal/101.jpg" target="new">
+							<img src="img/signal/101.jpg" alt="#101" class="img-thumbnail" />
+						</a>
+						<p><strong>Signal vol.101</strong></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- <div class="slide" >
 				<div class="container">
 		    		<div class="">
@@ -130,7 +124,6 @@ i) バグ:aboutのインジケーターが不要
 					</div>
 				</div>
 			</div> -->
-
 			<!-- 8aniv_T" -->
 			<div class="slide" id="slide2">
 				<div class="container-xs">
@@ -145,7 +138,6 @@ i) バグ:aboutのインジケーターが不要
 					</div>
 				</div>
 			</div>
-
 			<!-- 7aniv_T -->
 			<div class="slide" id="slide2">
 				<div class="container-xs">
@@ -518,13 +510,13 @@ i) バグ:aboutのインジケーターが不要
 		<!-- forVA -->
 		<div class="section" id="sec_VA">
 
-			<div class="slide" >
+			<div class="slide">
 				<div class="text-center">
 					<p>for<strong> Various Artists</strong></p>
 				</div>
 			</div>
 			<!-- yanma_megane -->
-			<div class="slide" >
+			<div class="slide yanma_megane" >
 				<div class="container-xs">
 					<div class="col-xs-12">
 						<a href="img/signal/megane_T.png" target="new">
@@ -537,7 +529,7 @@ i) バグ:aboutのインジケーターが不要
 				</div>
 			</div>
 			<!-- shoko_ssn -->
-			<div class="slide" >
+			<div class="slide shoko_ssn">
 				<div class="container-xs">
 					<div class="col-xs-12">
 						<a href="img/va/shoko_ssn.png" target="new">
@@ -550,7 +542,7 @@ i) バグ:aboutのインジケーターが不要
 				</div>
 			</div>
 			<!-- songs_cafe_pink -->
-			<div class="slide" >
+			<div class="slide sdc2014">
 				<div class="container-xs">
 					<div class="col-xs-6">
 						<a href="img/va/songs_cafe_pink.png" target="new">
