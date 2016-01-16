@@ -192,7 +192,7 @@ fullPage.js css override
   height: 6px;
 }
 #fp-nav ul li .fp-tooltip.right {
-    right: 15px;
+    right: 10px;
 }
 
 .fp-controlArrow.fp-prev {
