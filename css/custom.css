@@ -165,12 +165,20 @@ fullPage.js css override
 }
 
 #fp-nav ul li a.active span,
-.fp-slidesNav ul li a.active span{
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span{
   background: #fff;
   border-radius: 10%;
   height: 10px;
   width: 10px;
   margin: -5px 0 0 -5px;
+}
+#fp-nav ul li .fp-tooltip {
+    top: -7px;
+    font-size: 14px;
+    max-width: 220px;
+    width: 0;
 }
 #fp-nav.right {
   right: 0px;
@@ -182,6 +190,9 @@ fullPage.js css override
 .fp-slidesNav ul li{
   width: 0px;
   height: 6px;
+}
+#fp-nav ul li .fp-tooltip.right {
+    right: 15px;
 }
 
 .fp-controlArrow.fp-prev {
