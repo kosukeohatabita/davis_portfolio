@@ -157,10 +157,6 @@ fullPage.js css override
 
 ---------------------------------------------*/
   
-.fp-slidesNav ul li{
-  width: 0px;
-}
-
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span{
   background: transparent;
@@ -176,7 +172,12 @@ fullPage.js css override
 #fp-nav.right {
   right: 0px;
 }
-
+.fp-slidesNav.bottom {
+    bottom: 0px;
+}
+.fp-slidesNav ul li{
+  width: 0px;
+}
 
 .fp-controlArrow.fp-prev {
     left: 8px;
