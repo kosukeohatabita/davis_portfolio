@@ -161,13 +161,16 @@ fullPage.js css override
 .fp-slidesNav ul li a span{
   background: transparent;
   border: 1px solid #fff;
-  margin: -2px 0 0 -2px;
+  border-radius: 10%;
 }
 
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span{
   background: #fff;
-  margin: -6px 0 0 -6px;
+  border-radius: 10%;
+  height: 10px;
+  width: 10px;
+  margin: -5px 0 0 -5px;
 }
 #fp-nav.right {
   right: 0px;
