@@ -156,7 +156,11 @@ h5 {
 fullPage.js css override
 
 ---------------------------------------------*/
-  
+#fp-nav ul li,
+.fp-slidesNav ul li{
+  width: 0px;
+  height: 8px;
+}
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span{
   background: transparent;
@@ -174,22 +178,15 @@ fullPage.js css override
   width: 10px;
   margin: -5px 0 0 -5px;
 }
-#fp-nav ul li .fp-tooltip {
-    top: -7px;
-    font-size: 14px;
-    max-width: 220px;
-    width: 0;
-}
 #fp-nav.right {
-  right: 0px;
+  right: 5px;
 }
 .fp-slidesNav.bottom {
     bottom: 0px;
 }
-#fp-nav ul li,
-.fp-slidesNav ul li{
-  width: 0px;
-  height: 6px;
+#fp-nav ul li .fp-tooltip {
+    top: -7px;
+    font-size: 16px;
 }
 #fp-nav ul li .fp-tooltip.right {
     right: 10px;
