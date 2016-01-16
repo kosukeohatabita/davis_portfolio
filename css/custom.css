@@ -175,8 +175,10 @@ fullPage.js css override
 .fp-slidesNav.bottom {
     bottom: 0px;
 }
+#fp-nav ul li,
 .fp-slidesNav ul li{
   width: 0px;
+  height: 6px;
 }
 
 .fp-controlArrow.fp-prev {
