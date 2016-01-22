@@ -231,6 +231,18 @@ fullPage.js css override
 section override
 
 ---------------------------------------------*/
+#title_logo{
+  background: #fff;
+}
+#title_logo img{
+  width: 20%;
+}
+@media (max-width: 375px) {
+  #title_logo img{
+    width: 50%;
+  }
+}
+
 #sec_Signal{
   background-image:url(../img/signal/ance_entrance_1.png);
   color: #fff;
