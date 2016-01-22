@@ -232,7 +232,8 @@ section override
 
 ---------------------------------------------*/
 #title_logo{
-  background: #fff;
+  margin: 0px;
+  padding: 0px;
 }
 #title_logo img{
   width: 20%;
