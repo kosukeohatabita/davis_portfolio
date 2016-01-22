@@ -248,15 +248,6 @@ section override
   background-image:url(../img/signal/ance_entrance_1.png);
   color: #fff;
 }
-#sec_Signal a {
-  color: yellow;
-  text-decoration: none;
-}
-#sec_Signal a:hover,
-#sec_Signal a:focus {
-  color: orange;
-  text-decoration: underline;
-}
 
 #sec_SSS{
   background-image:url(../img/sss/back_1.jpg);
@@ -268,15 +259,6 @@ section override
   background-image:url(../img/houselab/back.jpg);
   background-position: 50% 50%;
   color: #fff ;
-}
-#sec_Houselab a {
-  color: yellow;
-  text-decoration: none;
-}
-#sec_Houselab a:hover,
-#sec_Houselab a:focus {
-  color: orange;
-  text-decoration: underline;
 }
 
 #sec_TAIKI{
