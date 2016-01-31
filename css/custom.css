@@ -4,6 +4,52 @@ body{
 	color: rgba(0,0,0,0.5);
 }
 
+footer {
+    display: block;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Terminal Dosis', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+footer nav {
+  background-color: rgba(0,0,0,0.8);
+  text-shadow: none;
+}
+footer nav#link {
+    margin-left: 15px;
+    float: right;
+    text-transform: none;
+}
+footer nav ul {
+    float: left;
+    padding: 5px;
+    margin: 0px;
+}
+footer nav ul li {
+    display: inline-block;
+    clear: both;
+    color: #fff;
+}
+footer nav#link li a {
+}
+footer nav ul li a {
+    display: block;
+    border-bottom: 0 solid #FFF;
+    border-bottom-color: #FFF;
+    color: #FFF;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
 #nav  {
 	width: 100%;
 	text-align: center;
@@ -156,7 +202,7 @@ h5 {
 
 @media (max-width: 375px) {
   .bnr a img {
-    width: 50%;
+    width: 45%;
     padding-bottom: 5px;
   }
 }
@@ -245,7 +291,7 @@ section override
 }
 
 #sec_Signal{
-  background-image:url(../img/signal/ance_entrance_1.png);
+  background-image:url(../img/signal/ance_entrance_1.jpg);
   color: #fff;
 }
 

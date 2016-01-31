@@ -5,10 +5,9 @@
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="portfolio site for DAVIS.">
 		<meta property="og:title" content="davis portfolio" />
-		<meta property="og:type" content="article" />
 		<meta property="og:url" content="http://davispf.xyz" />
 		<meta property="og:description" content="portfolio site for DAVIS." />
-		<meta property="og:image" content="http://davispf.xyz/img/davispf_bnr_l.jpg" />
+		<meta property="og:image" content="http://davispf.xyz/img/davispf_bnr.gif"/>
 		<title>davis portfolio</title>
 		<link rel="icon" href="img/davis.ico" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css">
@@ -25,9 +24,9 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
-					anchors: ['index', 'forSIGNAL', 'forSSS', 'forHouseLab', 'forOmichi','forVA', 'about'],
-					navigationTooltips: ['Index', 'forSIGNAL', 'forSuper☆Super☆Super', 'forHouseLab', 'forOmichi','forVariousArtists', 'about'],
-					sectionsColor: ['#fff', '#000', '#000', '#000', '#000', '#000', '#777'],
+					anchors: ['index', 'forSIGNAL', 'forSSS', 'forHouseLab', 'forTAIKI', 'forOmichi','forVA'],
+					navigationTooltips: ['Index', 'forSIGNAL', 'forSuper☆Super☆Super', 'forHouseLab', 'forTAIKI', 'forOmichi','forVariousArtists'],
+					sectionsColor: ['#fff', '#000', '#000', '#000', '#000', '000', '#000'],
 					navigation: true,
 					navigationPosition: 'right',
 					slidesNavigation: true,
@@ -61,7 +60,7 @@
 				    <span class="icon-bar"></span>
 			    	<span class="icon-bar"></span>
 			  	</button>
-			    <a class="navbar-brand" href="#about"><img src="img/davispf_bnr.png" alt="davis_portfolio" style="height: 25px;"/></a>
+			    <a class="navbar-brand" href="#about"><img src="img/davispf_bnr.gif" alt="davis_portfolio" style="height: 25px;"/></a>
 			 </div>
 			 <div id="navbar" class="navbar-collapse collapse">
 			    <ul class="nav navbar-nav">
@@ -80,7 +79,7 @@
 		<!-- Index -->
 		<div id="sec_Index" class="section">
 			<h1 id="title_logo">
-				<img src="img/davispf_bnr.png" alt="davispf">
+				<img src="img/davispf_bnr.gif" alt="davispf">
 			</h1>
 			<div class="container-xs">
 				<div class="row">
@@ -99,11 +98,11 @@
 							<img src="img/bnr/houselab_bnr.jpg" alt="houselab">
 						</a>
 					</div>
-					<!-- <div class="col-xs-12 col-sm-6 col-md-4 bnr">
+					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
 						<a href="#forTAIKI">
 							<img src="img/bnr/taiki_bnr.jpg" alt="taiki">
 						</a>
-					</div> -->
+					</div>
 					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
 						<a href="#forOmichi">
 							<img src="img/bnr/omichi_bnr.jpg" alt="omichi">
@@ -374,7 +373,7 @@
 
 
 		<!-- for TAIKI -->
-<!-- 		<div class="section" id="sec_TAIKI">
+		<div class="section" id="sec_TAIKI">
 			<div class="slide">
 				<div class="text-center">
 						<p>for <strong>TAIKI</strong>
@@ -422,7 +421,7 @@
 					</div>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
 		<!-- for Omichi -->
 		<div class="section" id="sec_Omichi">
@@ -650,39 +649,20 @@
 
 	  	</div>
 
-
-		<!-- about -->
-		<div class="section">
-			
-			<div class="container">
-				<div class="intro">
-					<div class="container-xs xs-size">
-						<div class="col-md-6 col-md-offset-3">
-							<h3>About Site</h3>
-							<p class="description-xs"><stropng>davisとしてのお仕事の彼是</stropng><br>古いのも徐々に更新予定。</p>
-						</div>
-						<div class="col-md-6 col-md-offset-3" id="icon-webfont">
-							<h3>Contact</h3>
-							<a href="https://www.facebook.com/kosuke.ohata.3" target="new">
-								<i class="fa fa-facebook-square fa-3x fa-fw animated-hover" style="color: #fff"></i>
-							</a>
-							<a href="mailto:ohata.k.ec@gmail.com?subject=問い合わせ&amp;">
-								<i class="fa fa-envelope-square fa-3x fa-fw" style="color: #fff"></i>
-							</a>
-						</div>
-						<br><br>
-						<div class="col-xs-12 ">
-							<footer class="footer">
-								<p class="text-muted copyright">&copy; 2016 davis</p>
-							</footer>
-						</div>
-					</div>
-				</div>
-			</div>
-	  		
-		</div>
-
 	</div>
+	<footer>
+		<nav id="link" class="move" style="opacity: 1;">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/kosuke.ohata.3" target="_blank"><i class="fa fa-facebook-square fa-lg fa-fw animated-hover"></i></a>
+				</li>
+				<li>
+					<a href="mailto:ohata.k.ec@gmail.com?subject=davisへの問い合わせ&amp;"><i class="fa fa-envelope-square fa-lg fa-fw animated-hover"></i></a>
+				</li>
+				<li>&copy;2016_davis</li>
+			</ul>
+		</nav>
+	</footer>
 
 	</body>
 </html>
