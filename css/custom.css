@@ -187,6 +187,8 @@ h5 {
   .col-vxs-6 {
     width: 50% ;
   }
+}
+@media (max-width: 378px) {
   .visible-vxs {
     display: block !important;
   }
@@ -194,6 +196,7 @@ h5 {
     display: none !important;
   }
 }
+
 
 .bnr a img {
   width: 85%;
