@@ -50,6 +50,11 @@ footer nav ul li a {
     transition: color 0.2s ease-in-out;
 }
 
+.index {
+  height: 100%;
+  background: #000;
+  color: #fff;
+}
 
 /*#nav  {
 	width: 100%;

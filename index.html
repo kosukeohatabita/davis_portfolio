@@ -12,6 +12,7 @@
 		<link rel="icon" href="img/davis.ico" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
 		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -19,7 +20,7 @@
 		<script type="text/javascript" src="fullPage.js/vendors/jquery.slimscroll.min.js"></script>
 		<script type="text/javascript" src="fullPage.js/jquery.fullPage.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>		
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<!-- fullPage.js -->
 		<script type="text/javascript">
 			$(document).ready(function() {
@@ -52,53 +53,61 @@
 
 	<!-- Static NavBar -->
 	<nav class="navbar-fixed-top">
-		<p class="navbar-brand" ><img src="img/davispf_bnr.gif" alt="davis_portfolio"/></p>
+		<p class="navbar-brand animated bounceInDown" ><img src="img/davispf_bnr.gif" alt="davis_portfolio"/></p>
 	</nav>
 
-	<div id="fullpage">
-
-		<!-- Index -->
-		<!-- <div id="sec_Index" class="section">
-			<h1 id="title_logo">
-				<img src="img/davispf_bnr.gif" alt="davispf">
-			</h1>
-			<div class="container-xs">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-						<a href="#forSIGNAL">
-							<img src="img/bnr/signal_bnr.jpg" alt="Signal">
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-						<a href="#forSSS">
-							<img src="img/bnr/sss_bnr.jpg" alt="sss">
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-						<a href="#forHouseLab">
-							<img src="img/bnr/houselab_bnr.jpg" alt="houselab">
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-						<a href="#forTAIKI">
-							<img src="img/bnr/taiki_bnr.jpg" alt="taiki">
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-						<a href="#forOmichi">
-							<img src="img/bnr/omichi_bnr.jpg" alt="omichi">
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-						<a href="#forVA">
-							<img src="img/bnr/va_bnr.jpg" alt="va">
-						</a>
-					</div>
+	<!-- Index -->
+	<div id="sec_Index" class="panel-collapse collapse index">
+		<h1 id="title_logo">
+			<img src="img/davispf_bnr.gif" alt="davispf">
+		</h1>
+		<div class="container-xs">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+					<a href="#forSIGNAL">
+						<img src="img/bnr/signal_bnr.jpg" alt="Signal">
+					</a>
 				</div>
-			</div>
-		</div> -->
+				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+					<a href="#forSSS">
+						<img src="img/bnr/sss_bnr.jpg" alt="sss">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+					<a href="#forHouseLab">
+						<img src="img/bnr/houselab_bnr.jpg" alt="houselab">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+					<a href="#forTAIKI">
+						<img src="img/bnr/taiki_bnr.jpg" alt="taiki">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+					<a href="#forOmichi">
+						<img src="img/bnr/omichi_bnr.jpg" alt="omichi">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+					<a href="#forVA">
+						<img src="img/bnr/va_bnr.jpg" alt="va">
+					</a>
+				</div>
+				<p>
+					<a href="https://www.facebook.com/kosuke.ohata.3" target="_blank"><i class="fa fa-facebook-square fa-lg fa-fw animated-hover"></i></a>
+				</p>
+				<p>
+					<a href="mailto:ohata.k.ec@gmail.com?subject=davisへの問い合わせ&amp;"><i class="fa fa-envelope-square fa-lg fa-fw animated-hover"></i></a>
+				</p>
+				<li class="hidden-vxs">&copy;2016_davis</li>
 
-		<!-- for SIGNAL -->
+			</div>
+		</div>
+	</div>
+
+	<div id="fullpage" class="">
+
+		<!-- for SIGNAL-->
 		<div id="sec_Signal" class="section">
 
 			<!-- First Slide: "SIGNAL" -->
@@ -169,7 +178,6 @@
 		</div>
 			
 
-			
 		<!-- for SSS -->
 		<div class="section" id="sec_SSS">
 
@@ -252,7 +260,7 @@
 			<div class="slide">
 				<div class="container-xs">
 					<div class="col-xs-2 hidden-vxs"></div>
-					<div class="col-vxs-12 col-xs-10">
+					<div class="col-vxs-12">
 						<a href="img/houselab/flyer/labparty_05.jpg" target="new">
 							<img src="img/houselab/flyer/labparty_05.jpg" alt="labparty_05" class="img-thumbnail" width="50%"/>
 						</a>
@@ -632,7 +640,7 @@
 
 	</div>
 	<footer>
-		<nav id="link" class="move" style="opacity: 1;">
+		<nav id="link" class="move animated bounceInRight" style="opacity: 1;">
 			<ul>
 				<li>
 					<a href="https://www.facebook.com/kosuke.ohata.3" target="_blank"><i class="fa fa-facebook-square fa-lg fa-fw animated-hover"></i></a>
@@ -640,6 +648,9 @@
 				<li>
 					<a href="mailto:ohata.k.ec@gmail.com?subject=davisへの問い合わせ&amp;"><i class="fa fa-envelope-square fa-lg fa-fw animated-hover"></i></a>
 				</li>
+				<!-- <li>
+					<a data-toggle="collapse" data-parent="#accordion" href="#sec_index" click="alert('test')"><i id="collapse-icon" class="fa fa-bars fa-lg fa-fw animated-hover"></i></a>
+				</li> -->
 				<li class="hidden-vxs">&copy;2016_davis</li>
 			</ul>
 		</nav>
