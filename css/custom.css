@@ -199,6 +199,9 @@ h5 {
   .hidden-vxs{
     display: none !important;
   }
+  .navbar-brand {
+    padding: 5px 5px;
+  }
   .navbar-brand img{
     height: 50px;
   }
