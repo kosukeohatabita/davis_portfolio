@@ -50,7 +50,8 @@ footer nav ul li a {
     transition: color 0.2s ease-in-out;
 }
 
-#nav  {
+
+/*#nav  {
 	width: 100%;
 	text-align: center;
 }
@@ -77,7 +78,7 @@ footer nav ul li a {
 #nav ul li a:hover {
 	color: #ffffff;
 	background: #afc6e2;
-}
+}*/
 
 
 h1 {
@@ -187,6 +188,9 @@ h5 {
   .col-vxs-6 {
     width: 50% ;
   }
+  .navbar-brand img{
+    height: 80px;
+  }
 }
 @media (max-width: 378px) {
   .visible-vxs {
@@ -194,6 +198,9 @@ h5 {
   }
   .hidden-vxs{
     display: none !important;
+  }
+  .navbar-brand img{
+    height: 50px;
   }
 }
 
