@@ -5,6 +5,6 @@ $(document).ready(function(){
 });
 
 $('#collapse_icon').click(function () {
-	alert('test toggle');
+	alert('test');
   /*$('#demo2').collapse('toggle');*/
 });

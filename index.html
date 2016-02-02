@@ -14,6 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="css/smp.css">
 		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -53,57 +54,66 @@
 
 	<!-- Static NavBar -->
 	<nav class="navbar-fixed-top">
-		<p class="navbar-brand animated bounceInDown" ><img src="img/davispf_bnr.gif" alt="davis_portfolio"/></p>
+		<p class="navbar-brand animated bounceInDown"><img src="img/davispf_bnr.gif" alt="davis_portfolio"/></p>
 	</nav>
 
 	<!-- Index -->
-	<div id="sec_Index" class="panel-collapse collapse index">
-		<h1 id="title_logo">
-			<img src="img/davispf_bnr.gif" alt="davispf">
-		</h1>
-		<div class="container-xs">
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-					<a href="#forSIGNAL">
-						<img src="img/bnr/signal_bnr.jpg" alt="Signal">
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-					<a href="#forSSS">
-						<img src="img/bnr/sss_bnr.jpg" alt="sss">
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-					<a href="#forHouseLab">
-						<img src="img/bnr/houselab_bnr.jpg" alt="houselab">
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-					<a href="#forTAIKI">
-						<img src="img/bnr/taiki_bnr.jpg" alt="taiki">
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-					<a href="#forOmichi">
-						<img src="img/bnr/omichi_bnr.jpg" alt="omichi">
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 bnr">
-					<a href="#forVA">
-						<img src="img/bnr/va_bnr.jpg" alt="va">
-					</a>
-				</div>
-				<p>
-					<a href="https://www.facebook.com/kosuke.ohata.3" target="_blank"><i class="fa fa-facebook-square fa-lg fa-fw animated-hover"></i></a>
-				</p>
-				<p>
-					<a href="mailto:ohata.k.ec@gmail.com?subject=davisへの問い合わせ&amp;"><i class="fa fa-envelope-square fa-lg fa-fw animated-hover"></i></a>
-				</p>
-				<li class="hidden-vxs">&copy;2016_davis</li>
 
+	<!-- <div class="load animated fadeOutDown delay_3s dur_5s container-xs">
+		<div class="row">
+		<div class="col-xs-12">
+			<p>loading...</p>
+		</div>
+		</div>
+	</div> -->
+	<nav id="sec_Index" class="panel-collapse collapse">
+		<div class="index">
+			<div class="">
+				<div class="row">
+					<p>Index</p>
+					<hr/>
+					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+						<a href="#forSIGNAL">
+							<img src="img/bnr/signal_bnr.jpg" alt="Signal">
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+						<a href="#forSSS">
+							<img src="img/bnr/sss_bnr.jpg" alt="sss">
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+						<a href="#forHouseLab">
+							<img src="img/bnr/houselab_bnr.jpg" alt="houselab">
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+						<a href="#forTAIKI">
+							<img src="img/bnr/taiki_bnr.jpg" alt="taiki">
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+						<a href="#forOmichi">
+							<img src="img/bnr/omichi_bnr.jpg" alt="omichi">
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 bnr">
+						<a href="#forVA">
+							<img src="img/bnr/va_bnr.jpg" alt="va">
+						</a>
+					</div>
+					<div class="col-xs-12">
+						<a href="https://www.facebook.com/kosuke.ohata.3" target="_blank"><i class="fa fa-facebook-square fa-3x fa-fw animated-hover"></i></a>
+						<a href="mailto:ohata.k.ec@gmail.com?subject=davisへの問い合わせ&amp;"><i class="fa fa-envelope-square fa-3x fa-fw animated-hover"></i></a>
+						<p>latest update 2016/1/30</p>
+						<p>&copy;2016_davis</p>
+					</div>
+					
+
+				</div>
 			</div>
 		</div>
-	</div>
+	</nav>
 
 	<div id="fullpage" class="">
 
@@ -115,7 +125,7 @@
 				<div class="container-xs">
 					<div class="col-xs-12 ">
 						<p><strong>毎月第4日曜</strong><a href="http://www.ance.jp/" target="new">@代々木ANCE</a></p>
-						<img src="img/signal/signal_logo.png" alt="logo" width="200px"/>
+						<img src="img/signal/signal_logo.png" alt="logo" width="200px" class="animated flip animate_logo" />
 						<p>
 							<strong>ハウス好き</strong>をキーワードに、</br>
 							踊りのうまい下手ジャンル関係なく</br>
@@ -259,7 +269,6 @@
 			<!-- "houselab.PARTY#5" -->
 			<div class="slide">
 				<div class="container-xs">
-					<div class="col-xs-2 hidden-vxs"></div>
 					<div class="col-vxs-12">
 						<a href="img/houselab/flyer/labparty_05.jpg" target="new">
 							<img src="img/houselab/flyer/labparty_05.jpg" alt="labparty_05" class="img-thumbnail" width="50%"/>
@@ -640,18 +649,18 @@
 
 	</div>
 	<footer>
-		<nav id="link" class="move animated bounceInRight" style="opacity: 1;">
+		<nav id="link" class="animated bounceInRight" style="opacity: 1;">
 			<ul>
-				<li>
+				<!-- <li>
 					<a href="https://www.facebook.com/kosuke.ohata.3" target="_blank"><i class="fa fa-facebook-square fa-lg fa-fw animated-hover"></i></a>
 				</li>
 				<li>
 					<a href="mailto:ohata.k.ec@gmail.com?subject=davisへの問い合わせ&amp;"><i class="fa fa-envelope-square fa-lg fa-fw animated-hover"></i></a>
-				</li>
-				<!-- <li>
-					<a data-toggle="collapse" data-parent="#accordion" href="#sec_index" click="alert('test')"><i id="collapse-icon" class="fa fa-bars fa-lg fa-fw animated-hover"></i></a>
 				</li> -->
-				<li class="hidden-vxs">&copy;2016_davis</li>
+				<li>
+					<a data-toggle="collapse" data-parent="#accordion" href="#sec_Index"><i id="collapse-icon" class="fa fa-bars fa-2x fa-fw animated-hover"></i></a>
+				</li>
+				<!-- <li class="hidden-vxs">&copy;2016_davis</li> -->
 			</ul>
 		</nav>
 	</footer>

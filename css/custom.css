@@ -51,40 +51,23 @@ footer nav ul li a {
 }
 
 .index {
+  position: fixed;
+  display: table;
+  top: 0;
+  left:25%;
+  width: 50%;
   height: 100%;
   background: #000;
+  opacity: 1;
   color: #fff;
+  z-index: 1040;
 }
+.index div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 
-/*#nav  {
-	width: 100%;
-	text-align: center;
 }
-#nav ul  {
-	overflow: hidden;
-	width: 596px;
-	margin: 0 auto;
-}
-#nav ul li  {
-	float: left;
-}
-#nav ul li a {
-	font-size: 20px;
-	display: block;
-	width: 108px;
-	height: 55px;
-	margin: 10px 0 5px 7px;
-	padding: 1px 2px;
-	line-height: 1.4;
-	color: #ffffff;
-	background: #9fb7d4;
-	text-align: center;
-}
-#nav ul li a:hover {
-	color: #ffffff;
-	background: #afc6e2;
-}*/
-
 
 h1 {
   font-size: 5em ;
@@ -179,37 +162,22 @@ h5 {
   width: 70%
 }
 
-@media (min-width: 568px) {
-  .container-xs {
-    height: 100%px;
-    width: 50%;
-    padding: 15px;
-    margin: auto;
-  }
 
-  .col-vxs-12 {
-    width: 100% ;
-  }
-  .col-vxs-6 {
-    width: 50% ;
-  }
-  .navbar-brand img{
-    height: 80px;
-  }
+.container-xs {
+  height: 100%px;
+  width: 50%;
+  padding: 15px;
+  margin: auto;
 }
-@media (max-width: 378px) {
-  .visible-vxs {
-    display: block !important;
-  }
-  .hidden-vxs{
-    display: none !important;
-  }
-  .navbar-brand {
-    padding: 5px 5px;
-  }
-  .navbar-brand img{
-    height: 35px;
-  }
+
+.col-vxs-12 {
+  width: 100% ;
+}
+.col-vxs-6 {
+  width: 50% ;
+}
+.navbar-brand img{
+  height: 80px;
 }
 
 
@@ -218,19 +186,11 @@ h5 {
   padding-bottom: 10px;
 }
 
-@media (max-width: 375px) {
-  .bnr a img {
-    width: 45%;
-    padding-bottom: 5px;
-  }
-}
-
 a {
   color: yellow;
   text-decoration: none;
 }
-a:hover,
-a:focus {
+a:hover {
   color: orange;
   text-decoration: underline;
 }
@@ -302,11 +262,16 @@ section override
 #title_logo img{
   width: 20%;
 }
-@media (max-width: 375px) {
-  #title_logo img{
-    width: 50%;
-  }
+
+#sec_Index a{
+  color: #fff;
+  text-decoration: none;
 }
+#sec_Index a:hover, #sec_Index a:focus {
+  color: orange;
+  text-decoration: underline;
+}
+
 
 #sec_Signal{
   background-image:url(../img/signal/ance_entrance_1.jpg);
@@ -349,4 +314,45 @@ section override
 #sec_VA .sdc2014{
   background-image:url(../img/va/sdc2014_back.jpg);
   background-position: 50% 50%;
+}
+
+
+/*animate.css*/
+.delay_3s{
+  -webkit-animation-duration: 3s;
+  animation-delay:3s;
+}
+.delay_4s{
+  -webkit-animation-duration: 4s;
+  animation-delay:4s;
+}
+.delay_5s{
+  -webkit-animation-duration: 1s;
+  animation-delay:5s;
+}
+
+.delay_10s{
+  -webkit-animation-duration: 1s;
+  animation-delay:10s;
+}
+
+.dur_5s{
+ -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+}
+.dur_10s{
+ -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+}
+
+.animate_logo{
+  -webkit-animation-duration: 4s;
+  animation-delay:4s;
+  /* 5回繰り返す */
+  /*-webkit-animation-iteration-count: 5;
+  animation-iteration-count: 5;*/
+}
+.animate_index{
+  -webkit-animation-duration: 10s;
+  animation-delay:10s;
 }
