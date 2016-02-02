@@ -374,15 +374,3 @@ section override
  -webkit-animation-duration: 10s;
   animation-duration: 10s;
 }
-
-.animate_logo{
-  -webkit-animation-duration: 4s;
-  animation-delay:4s;
-  /* 5回繰り返す */
-  /*-webkit-animation-iteration-count: 5;
-  animation-iteration-count: 5;*/
-}
-.animate_index{
-  -webkit-animation-duration: 10s;
-  animation-delay:10s;
-}
