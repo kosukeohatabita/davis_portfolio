@@ -83,6 +83,25 @@ footer nav ul li a {
   text-align: center;
   vertical-align: middle;
 }
+.profile {
+  position: fixed;
+  display: table;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 1;
+  color: #fff;
+  z-index: 1040;
+}
+.profile div {
+  font-size: 11px;
+  margin: 10px 0 10px 0;
+  padding: 20px 10px 20px 10px; 
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
 
 
 .section,
@@ -133,7 +152,7 @@ a:hover {
 /*--------------------------------------
 for iphone6 vertical
 ----------------------------------------*/
-@media (max-width: 378px) {
+@media (max-width: 414px) {
   #title_logo img{
     width: 55%;
   }
@@ -160,6 +179,12 @@ for iphone6 vertical
   }
   .navbar-brand img{
     height: 35px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 767px) {
+  .hidden-xs, tr.hidden-xs, th.hidden-xs, td.hidden-xs {
+      display: none !important;
   }
 }
 
