@@ -84,46 +84,6 @@ footer nav ul li a {
   vertical-align: middle;
 }
 
-h1 {
-  font-size: 5em ;
-  color: #fff ;
-  margin: 30 ;
-}
-h4 {
-  font-size: 2.3em;
-  color: #fff ;
-  margin: 30 ;
-}
-h3 {
-  font-size: 3em ;
-  color: #fff ;
-  margin:30 ;
-}
-h5 {
-  font-size: 1.8em ;
-  color: #fff ;
-  margin: 30 ;
-}
-.aboutme a {
-  text-decoration: none;
-}
-.aboutme a:hover {
-  color: #FE9A2E;
-}
-.intro p {
-  font-size: 1.5em ;
-  color: #fff ;
-}
-.releases {
-  font-size: 1.5em ;
-}
-.col-sm-6 p {
-  color: #fff ;
-}
-.copyright  {
-  font-size: 1.5em ;
-  color: #fff ;
-}
 
 .section,
 .slide{
@@ -132,51 +92,11 @@ h5 {
   text-align:center ;
 }
 
-.description  {
-  font-size: 1.5em ;
-}
-.radius-img {
-  backgroud: #ccc ;
-  border: solid 1px #000 ;
-  -webkit-border-radius: 10px ;
-  -moz-border-radius: 10px ;
-  border-radius: 10px ;
-  width: 100% ;
-}
-
-.xs-size {
-  font-size: 0.6em ;
-}
-
-.xs-sze .xs-size-modal {
-  font-size: 0.7em;
-}
-
-.xs-dl {
-  font-size: 1.7em ;
-  text-align: left ;
-}
-
-.dl-sm {
-  color: #fff ;
-  font-size: 1.2em ;
-}
-
-.description-xs {
-  font-size: 0.8em ;
-}
-
-.container-xs {
-  padding: 15px;
-  margin: auto;
-}
-
 .container-xs .toolong img{
   padding: 15px;
   margin: auto;
   width: 70%
 }
-
 
 .container-xs {
   height: 100%px;
@@ -195,7 +115,6 @@ h5 {
   height: 80px;
 }
 
-
 .bnr a img {
   width: 85%;
   padding-bottom: 10px;
@@ -208,6 +127,40 @@ a {
 a:hover {
   color: orange;
   text-decoration: underline;
+}
+
+
+/*--------------------------------------
+for iphone6 vertical
+----------------------------------------*/
+@media (max-width: 378px) {
+  #title_logo img{
+    width: 50%;
+  }
+  .bnr a img {
+    width: 80%;
+    padding-bottom: 5px;
+    opacity: 1;
+  }
+  .container-xs {
+    height: 100%px;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+  }
+
+  .visible-vxs {
+    display: block !important;
+  }
+  .hidden-vxs{
+    display: none !important;
+  }
+  .navbar-brand {
+    padding: 5px 5px;
+  }
+  .navbar-brand img{
+    height: 35px;
+  }
 }
 
 
@@ -332,7 +285,11 @@ section override
 }
 
 
-/*animate.css*/
+/*---------------------------------------------
+
+animation.css
+
+---------------------------------------------*/
 .delay_2s{
   -webkit-animation-duration: 2s;
   animation-delay:2s;
