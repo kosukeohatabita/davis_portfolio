@@ -89,17 +89,21 @@ footer nav ul li a {
   width: 100%;
   height: 100%;
   background: #000;
+  background-image:url(../img/davis_dancin.jpg);
   opacity: 1;
   color: #fff;
   z-index: 1040;
 }
 .profile div {
+  height: 90%;
   font-size: 11px;
   margin: 5px 0 5px 0;
   padding: 10px 10px 10px 10px; 
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  background: #000;
+  opacity: 0.5;
 }
 .profile_l {
   width: 100%;
