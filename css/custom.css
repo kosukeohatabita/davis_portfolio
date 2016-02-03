@@ -90,6 +90,7 @@ footer nav ul li a {
   height: 100%;
   background: #000;
   background-image:url(../img/davis_dancin.jpg);
+  background-position: 50% 50%;
   opacity: 1;
   color: #fff;
   z-index: 1040;
