@@ -320,6 +320,10 @@ section override
 animation.css
 
 ---------------------------------------------*/
+.delay_1s{
+  -webkit-animation-duration: 1s;
+  animation-delay:1s;
+}
 .delay_2s{
   -webkit-animation-duration: 2s;
   animation-delay:2s;
