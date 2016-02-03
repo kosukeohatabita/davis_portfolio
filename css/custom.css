@@ -86,7 +86,6 @@ footer nav ul li a {
 .profile {
   position: fixed;
   display: table;
-  top: 0;
   width: 100%;
   height: 100%;
   background: #000;
@@ -96,11 +95,16 @@ footer nav ul li a {
 }
 .profile div {
   font-size: 11px;
-  /*margin: 5px 0 5px 0;
-  padding: 10px 10px 10px 10px; */
+  margin: 5px 0 5px 0;
+  padding: 10px 10px 10px 10px; 
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+.profile_l {
+  width: 100%;
+  position: fixed;
+  margin: 0 auto ;
 }
 
 
