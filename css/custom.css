@@ -96,12 +96,12 @@ footer nav ul li a {
   z-index: 1040;
 }
 .profile_ {
-  padding: auto 0;
+  padding: 30px 0 0;
   display: table-cell;
   vertical-align: middle;;
 }
 .profile_ div {
-  height: 90%;
+  height: 100%;
   font-size: 11px;
   /*margin: 5px 0 5px 0;
   padding: 10px 10px 10px 10px; */
