@@ -94,9 +94,10 @@ footer nav ul li a {
   opacity: 1;
   color: #fff;
   z-index: 1040;
-}ß
+}
 .profile_ {
   /*padding: 30px 0 0;*/
+  height: 320px;
   display: table-cell;
   vertical-align: middle;;
 }
